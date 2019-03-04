@@ -10,8 +10,11 @@ gem "turbolinks",   "5.0.1"
 gem "uglifier",     "3.2.0"
 
 group :development, :test do
-  gem "byebug",  "9.0.6", platform: :mri
-  gem "sqlite3", "1.3.13"
+  gem "awesome_print",      "1.8.0"
+  gem "byebug",             "9.0.6", platform: :mri
+  gem "interactive_editor", "0.0.11"
+  gem "ruby-terminfo",      "0.1.1"
+  gem "sqlite3",            "1.3.13"
 end
 
 group :development do
